@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>WOLFSOFT REGISTRO</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		
+		<link rel="stylesheet" href="assets/css/main.css" />
+		
+		<style type="text/css">
+					.documento{
+								color:black;
+								border: 2px solid #A8A8A8;
+								font-family:  Arial;
+								}
+		</style>
+	</head>
+	<body>
+
+			<section id="sidebar">
+				<div class="inner">
+					<nav>
+						<ul>
+							<li><a href="#intro">Registro</a></li>
+							<li><a href="https://primertaller-briam94.c9users.io/index.html">Volver a inicio</a></li>
+						</ul>
+					</nav>
+				</div>
+			</section>
+
+			<div id="wrapper">
+					<section id="intro" class="wrapper style1 fullscreen fade-up">
+						<div class="inner">
+							<h1>WOLFSOFT REGISTRO</h1>
+							
+							<form action="/action_page.php">
+								
+		  							Primer Nombre: <span style="color:red">*</span></br> 
+  									<input type="text" name="primernombre" value="" style="width:500px;height:50px" required>
+  									<br>
+  									
+  									Sengundo Nombre: <span style="color:red">*</span><br>
+  									<input type="text" name="lastname" value="" style="width:500px;height:50px" required>
+  									<br>
+  									
+  									Apellidos:<span style="color:red">*</span><br>
+  									<input type="text" name="apellidos" value="" style="width:500px;height50px">
+  									<br>
+  									
+  									Numero de Documento: <span style="color:red">*</span><br>
+  									<input type="number" name="numerodocumento"  class="documento">
+  									<br>
+  									
+  									Nombre de usuario:<br>
+  									<input type="text" name="usuario" value="" style="width:300px;height50px">
+  									<br>
+  									
+  									Contraseña:<br>
+  									<input type="password" name="contraseña" style="width:200px;height50px">
+  									<br>
+  									
+  									Sexo:<span style="color:red">*</span><br>
+  									<select style="width:200px;height:50px">
+  										<option value="select">-selecionar-</option>
+  										<option value="male">Masculino</option>
+  										<option value="female">Femenino</option>
+  									</select><br>
+  									
+  									Correo electronico: <span style="color:red">*</span><br>
+  									<input type="email" value="" style="width:700px;height:50px"><br>
+  									 Deseas recibir informacion sobre nuestros productos en tu correo electronico:<br>
+  									<select style="width:200px;height:50px">
+  										<option value="si">SI</option>
+  										<option value="no">NO</option><br>
+  										</select><br>
+  										
+  										Fotografia<br>
+  										<input type="file" name="foto">
+  										<br><br>
+  										
+  										Razon de su suscripcion:<br>
+  										<textarea name="message" rows="6" cols="20">
+										</textarea>
+  										
+  									<br><br>
+  									<input type="submit" value="Registrar"> <input type="reset" value="Limpiar">
+  									
+									</form> 
+									<ul class="actions">
+							</ul>
+						</div>
+					</section>
+
+			<footer id="footer" class="wrapper style1-alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; WOLSOFT.COM</li>
+					<li><a href="https://www.facebook.com/WolfsoftGS/?ref=aymt_homepage_panel" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
+						<li><a href="https://acercademi-briam94.c9users.io/index.html">Desarrollador</a></li>
+						
+					</ul>
+				</div>
+			</footer>
+
+
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
